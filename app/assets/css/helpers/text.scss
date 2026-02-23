@@ -1,0 +1,33 @@
+.text {
+  &--regular {
+    font-weight: $text--regular;
+  }
+  &--medium {
+    font-weight: $text--medium;
+  }
+  &--semi-bold {
+    font-weight: $text--semi-bold;
+  }
+  &--bold {
+    font-weight: $text--bold;
+  }
+
+  &--xxl {
+    font-size: $text--xxl;
+  }
+  &--xl {
+    font-size: $text--xl;
+  }
+  &--lg {
+    font-size: $text--lg;
+  }
+  &--md {
+    font-size: $text--md;
+  }
+  &--sm {
+    font-size: $text--sm;
+  }
+  &--xs {
+    font-size: $text--xs;
+  }
+}

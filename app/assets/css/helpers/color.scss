@@ -1,0 +1,65 @@
+.color {
+  &--dark-primary {
+    color: $color--dark-primary;
+  }
+  &--dark-secondary {
+    color: $color--dark-secondary;
+  }
+  &--dark-accent {
+    color: $color--dark-accent;
+  }
+  &--accent {
+    color: $color--accent;
+  }
+  &--accent-hover {
+    color: $color--accent-hover;
+  }
+  &--accent-active {
+    color: $color--accent-active;
+  }
+  &--text-primary {
+    color: $color--text-primary;
+  }
+  &--text-secondary {
+    color: $color--text-secondary;
+  }
+  &--text-description {
+    color: $color--text-description;
+  }
+  &--separator {
+    color: $color--separator;
+  }
+}
+
+.bg-color {
+  &--dark-primary {
+    background-color: $color--dark-primary;
+  }
+  &--dark-secondary {
+    background-color: $color--dark-secondary;
+  }
+  &--dark-accent {
+    background-color: $color--dark-accent;
+  }
+  &--accent {
+    background-color: $color--accent;
+  }
+  &--accent-hover {
+    background-color: $color--accent-hover;
+  }
+  &--accent-active {
+    background-color: $color--accent-active;
+  }
+  &--text-primary {
+    background-color: $color--text-primary;
+  }
+  &--text-secondary {
+    background-color: $color--text-secondary;
+  }
+  &--text-description {
+    background-color: $color--text-description;
+  }
+  &--separator {
+    background-color: $color--separator;
+  }
+}

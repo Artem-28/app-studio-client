@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+  url('../../fonts/Inter-VariableFont_opsz,wght.ttf') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+  url('../../fonts/Inter-Italic-VariableFont_opsz,wght.ttf') format('woff');
+  font-style: italic;
+}
+
+$font--primary: Inter;
+
+$text--regular: 400;
+$text--medium: 500;
+$text--semi-bold: 600;
+$text--bold: 700;
+
+$text--xs: 12px;
+$text--sm: 14px;
+$text--md: 16px;
+$text--lg: 18px;
+$text--xl: 22px;
+$text--xxl: 26px;
