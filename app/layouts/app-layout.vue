@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import AppBackground from "../components/app/app-background.vue";
+import AppBackground from '../components/app/app-background.vue';
 </script>
 
 <style scoped>
