@@ -97,20 +97,7 @@ export default [
       ...configPrettier.rules,
 
       // Запускаем Prettier как правило ESLint
-      'prettier/prettier': [
-        'error',
-        {
-          // Эти настройки должны совпадать с .prettierrc
-          semi: true,
-          singleQuote: true,
-          tabWidth: 2,
-          trailingComma: 'es5',
-          printWidth: 100,
-          bracketSpacing: true,
-          arrowParens: 'always',
-          endOfLine: 'auto',
-        },
-      ],
+      'prettier/prettier': ['error'],
     },
   },
   // Добавляем Vue рекомендации
