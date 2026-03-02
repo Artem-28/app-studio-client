@@ -1,6 +1,5 @@
 export const useExample = () => {
+  function foo() {}
 
-    function foo() {}
-
-    return { foo }
-}
+  return { foo };
+};

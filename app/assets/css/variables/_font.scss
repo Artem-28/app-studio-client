@@ -1,14 +1,16 @@
 @font-face {
   font-family: 'Inter';
-  src: local('Inter'),
-  url('../../fonts/Inter-VariableFont_opsz,wght.ttf') format('woff');
+  src:
+    local('Inter'),
+    url('../../fonts/Inter-VariableFont_opsz,wght.ttf') format('woff');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: local('Inter'),
-  url('../../fonts/Inter-Italic-VariableFont_opsz,wght.ttf') format('woff');
+  src:
+    local('Inter'),
+    url('../../fonts/Inter-Italic-VariableFont_opsz,wght.ttf') format('woff');
   font-style: italic;
 }
 

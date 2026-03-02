@@ -59,7 +59,12 @@ export default [
       'one-var': 'off',
       'no-void': 'off',
       'multiline-ternary': 'off',
-      'vue/multi-word-component-names': 'off',
+      'vue/multi-word-component-names': [
+        'error',
+        {
+          ignores: ['index'], // имена, которые игнорировать
+        },
+      ],
       quotes: [
         'error',
         'single',

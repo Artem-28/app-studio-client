@@ -1,34 +1,32 @@
 <template>
-  <div :class="rootClasses">{{ rootClasses }}</div>
+  <div :class="rootClasses">
+    {{ rootClasses }}
+  </div>
 </template>
 
 <script setup>
+  import { useAsyncData } from 'nuxt/app';
+  import { computed } from 'vue';
+  import { hClasses } from '../helpers/index.js';
+  import { useExample } from '../composable';
+  import { useBaseExample } from '../composable/base';
 
-import { useAsyncData } from "nuxt/app";
-import {computed} from "vue";
-import {hClasses} from "../helpers/index.js";
-import { useExample } from "../composable";
-import {useBaseExample} from "../composable/base";
+  const { data: products } = await useAsyncData('products', () => $fetch('api/v1/products'));
+  console.log(products);
 
-const { data: products } = await useAsyncData('products', () => $fetch('api/v1/products'));
-console.log(products);
+  const exemple = useExample();
+  const base = useBaseExample();
+  const rootClasses = computed(() => {
+    const classes = hClasses('root-class');
+    const color = hClasses('color');
 
-const exemple = useExample();
-const base = useBaseExample();
-const rootClasses = computed(() => {
-  const classes = hClasses('root-class')
-  const color = hClasses('color')
+    classes.modify().append('disable');
+    classes.modify().remove('disable');
 
-  classes.modify().append('disable')
-  classes.modify().remove('disable')
+    color.modify().append('accent');
 
-  color.modify().append('accent')
+    classes.append(color.value());
 
-  classes.append(color.value())
-
-
-
-  return classes.value();
-})
-
+    return classes.value();
+  });
 </script>

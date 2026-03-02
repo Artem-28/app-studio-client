@@ -1,5 +1,5 @@
 export const useBaseExample = () => {
-    function foo() {}
+  function foo() {}
 
-    return { foo }
-}
+  return { foo };
+};
