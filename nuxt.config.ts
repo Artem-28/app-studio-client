@@ -28,6 +28,11 @@ export default defineNuxtConfig({
     },
   },
 
+  components: [
+    { path: '~/components/base', pathPrefix: false },
+    '~/components',
+  ],
+
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n'],
 });
