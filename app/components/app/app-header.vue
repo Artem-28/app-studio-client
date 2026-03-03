@@ -1,11 +1,7 @@
 <template>
-  <header>App header</header>
+  <header>App header 2</header>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
