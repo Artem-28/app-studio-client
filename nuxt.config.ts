@@ -8,16 +8,24 @@ export default defineNuxtConfig({
     host: '0.0.0.0',
   },
 
+  vite: {
+    server: {
+      watch: {
+        usePolling: true,
+        interval: 100,
+      },
+    },
+  },
+
   i18n: {
     defaultLocale: 'ru',
-    locales: [
-      { code: 'ru', name: 'Russian', file: 'ru.json'}
-    ],
+    locales: [{ code: 'ru', name: 'Russian', file: 'ru.json' }],
   },
+
   routeRules: {
     '/api/**': {
-      proxy: 'http://digital_studio_server-app:3001/api/**'
-    }
+      proxy: 'http://digital_studio_server-app:3001/api/**',
+    },
   },
 
   devtools: { enabled: true },
