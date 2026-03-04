@@ -13,7 +13,7 @@
   // (переименовать ID с t-icon__ → base-icon__)
 
   import { computed } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
+  import { hClasses } from '@/helpers/index.js';
 
   // TODO: пример спрайта
 

@@ -21,12 +21,12 @@
 
 <script setup>
   import { computed, ref } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
-  import { useBaseHover } from '../../composable/base/base-hover.composable.js';
+  import { hClasses } from '@/helpers/index.js';
+  import { useBaseHover } from '@/composable/base/base-hover.composable.js';
   import {
     baseRouterLinkProps,
     useBaseRouterLink,
-  } from '../../composable/base/base-router-link.composable.js';
+  } from '@/composable/base/base-router-link.composable.js';
 
   const props = defineProps({
     label: {

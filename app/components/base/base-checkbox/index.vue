@@ -37,11 +37,11 @@
 
 <script setup>
   import { computed } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
+  import { hClasses } from '@/helpers/index.js';
   import {
     baseCheckboxProps,
     useBaseCheckbox,
-  } from '../../composable/base/base-checkbox.composable.js';
+  } from '@/composable/base/base-checkbox.composable.js';
 
   const props = defineProps(baseCheckboxProps);
 

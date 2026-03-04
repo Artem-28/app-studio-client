@@ -11,7 +11,7 @@
 
 <script setup>
   import { computed, inject, onBeforeUnmount, onMounted, ref } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
+  import { hClasses } from '@/helpers/index.js';
 
   const props = defineProps({
     name: {

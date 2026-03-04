@@ -1,11 +1,11 @@
 <template>
-  <BaseCard :class="rootClass" :tag="tag" :square="square">
+  <base-card :class="rootClass" :tag="tag" :square="square">
     <header v-if="$slots.header || title" class="base-card-info__header">
       <slot name="header">
         <span v-if="title" class="base-card-info__header__title">{{ title }}</span>
       </slot>
       <div v-if="actions.length" class="base-card-info__header__actions">
-        <BaseButton
+        <base-button
           v-for="(action, i) in actions"
           :key="i"
           :class="action.class"
@@ -27,7 +27,7 @@
 
     <div v-if="selectable || link" class="base-card-info__right-container">
       <template v-if="selectable">
-        <BaseCheckbox :model-value="isSelected" @update:model-value="onCheckboxChange" />
+        <base-checkbox :model-value="isSelected" @update:model-value="onCheckboxChange" />
       </template>
       <template v-else-if="link">
         <a
@@ -37,7 +37,7 @@
           @click="onLinkClick"
         >
           <!-- TODO: заменить иконку на base-icon после его реализации -->
-          <BaseButton icon="arrow_tail_right" :flat="true" padding="0" />
+          <base-button icon="arrow_tail_right" :flat="true" padding="0" />
         </a>
       </template>
     </div>
@@ -45,15 +45,12 @@
     <footer v-if="$slots.footer" class="base-card-info__footer">
       <slot name="footer" />
     </footer>
-  </BaseCard>
+  </base-card>
 </template>
 
 <script setup>
   import { computed } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
-  import BaseCard from './BaseCard.vue';
-  import BaseButton from './BaseButton.vue';
-  import BaseCheckbox from './BaseCheckbox.vue';
+  import { hClasses } from '@/helpers/index.js';
 
   const props = defineProps({
     modelValue: {
