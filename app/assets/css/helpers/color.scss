@@ -1,65 +1,167 @@
 .color {
-  &--dark-primary {
-    color: $color--dark-primary;
+  &--white {
+    color: $white;
   }
-  &--dark-secondary {
-    color: $color--dark-secondary;
+  &--black {
+    color: $black;
   }
-  &--dark-accent {
-    color: $color--dark-accent;
+
+  &--dark-06 {
+    color: $dark-06;
   }
-  &--accent {
-    color: $color--accent;
+  &--dark-10 {
+    color: $dark-10;
   }
-  &--accent-hover {
-    color: $color--accent-hover;
+  &--dark-12 {
+    color: $dark-12;
   }
-  &--accent-active {
-    color: $color--accent-active;
+  &--dark-15 {
+    color: $dark-15;
   }
-  &--text-primary {
-    color: $color--text-primary;
+  &--dark-20 {
+    color: $dark-20;
   }
-  &--text-secondary {
-    color: $color--text-secondary;
+  &--dark-25 {
+    color: $dark-25;
   }
-  &--text-description {
-    color: $color--text-description;
+  &--dark-30 {
+    color: $dark-30;
   }
-  &--separator {
-    color: $color--separator;
+  &--dark-35 {
+    color: $dark-35;
+  }
+
+  &--grey-40 {
+    color: $grey-40;
+  }
+  &--grey-50 {
+    color: $grey-50;
+  }
+  &--grey-70 {
+    color: $grey-70;
+  }
+  &--grey-80 {
+    color: $grey-80;
+  }
+  &--grey-90 {
+    color: $grey-90;
+  }
+  &--grey-95 {
+    color: $grey-95;
+  }
+  &--grey-97 {
+    color: $grey-97;
+  }
+  &--grey-99 {
+    color: $grey-99;
+  }
+
+  &--accent-60 {
+    color: $accent-60;
+  }
+  &--accent-65 {
+    color: $accent-65;
+  }
+  &--accent-70 {
+    color: $accent-70;
+  }
+  &--accent-80 {
+    color: $accent-80;
+  }
+  &--accent-90 {
+    color: $accent-90;
+  }
+  &--accent-95 {
+    color: $accent-95;
+  }
+  &--accent-97 {
+    color: $accent-97;
+  }
+  &--accent-99 {
+    color: $accent-99;
   }
 }
 
 .bg-color {
-  &--dark-primary {
-    background-color: $color--dark-primary;
+  &--white {
+    background-color: $white;
   }
-  &--dark-secondary {
-    background-color: $color--dark-secondary;
+  &--black {
+    background-color: $black;
   }
-  &--dark-accent {
-    background-color: $color--dark-accent;
+
+  &--dark-06 {
+    background-color: $dark-06;
   }
-  &--accent {
-    background-color: $color--accent;
+  &--dark-10 {
+    background-color: $dark-10;
   }
-  &--accent-hover {
-    background-color: $color--accent-hover;
+  &--dark-12 {
+    background-color: $dark-12;
   }
-  &--accent-active {
-    background-color: $color--accent-active;
+  &--dark-15 {
+    background-color: $dark-15;
   }
-  &--text-primary {
-    background-color: $color--text-primary;
+  &--dark-20 {
+    background-color: $dark-20;
   }
-  &--text-secondary {
-    background-color: $color--text-secondary;
+  &--dark-25 {
+    background-color: $dark-25;
   }
-  &--text-description {
-    background-color: $color--text-description;
+  &--dark-30 {
+    background-color: $dark-30;
   }
-  &--separator {
-    background-color: $color--separator;
+  &--dark-35 {
+    background-color: $dark-35;
+  }
+
+  &--grey-40 {
+    background-color: $grey-40;
+  }
+  &--grey-50 {
+    background-color: $grey-50;
+  }
+  &--grey-70 {
+    background-color: $grey-70;
+  }
+  &--grey-80 {
+    background-color: $grey-80;
+  }
+  &--grey-90 {
+    background-color: $grey-90;
+  }
+  &--grey-95 {
+    background-color: $grey-95;
+  }
+  &--grey-97 {
+    background-color: $grey-97;
+  }
+  &--grey-99 {
+    background-color: $grey-99;
+  }
+
+  &--accent-60 {
+    background-color: $accent-60;
+  }
+  &--accent-65 {
+    background-color: $accent-65;
+  }
+  &--accent-70 {
+    background-color: $accent-70;
+  }
+  &--accent-80 {
+    background-color: $accent-80;
+  }
+  &--accent-90 {
+    background-color: $accent-90;
+  }
+  &--accent-95 {
+    background-color: $accent-95;
+  }
+  &--accent-97 {
+    background-color: $accent-97;
+  }
+  &--accent-99 {
+    background-color: $accent-99;
   }
 }
