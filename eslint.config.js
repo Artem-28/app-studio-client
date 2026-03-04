@@ -59,6 +59,7 @@ export default [
       'one-var': 'off',
       'no-void': 'off',
       'multiline-ternary': 'off',
+      'vue/max-attributes-per-line': 'off',
       'vue/multi-word-component-names': [
         'error',
         {

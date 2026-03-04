@@ -160,8 +160,6 @@
 </script>
 
 <style scoped lang="scss">
-  @use '../../assets/css/variables/index' as *;
-
   $border-radius: 12px;
 
   .base-btn {

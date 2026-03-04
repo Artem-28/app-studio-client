@@ -28,10 +28,16 @@ export default defineNuxtConfig({
     },
   },
 
-  components: [
-    { path: '~/components/base', pathPrefix: false },
-    '~/components',
-  ],
+  components: {
+    dirs: [
+      {
+        path: '~/components/base',
+        pathPrefix: false,
+        pattern: '**/*.vue',
+      },
+      '~/components',
+    ],
+  },
 
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n'],

@@ -1,6 +1,8 @@
 <template>
   <div :class="rootClasses">
     {{ rootClasses }}
+    <div class="color--accent-60">some text</div>
+    <base-button label="test" color="accent-60" />
   </div>
 </template>
 
