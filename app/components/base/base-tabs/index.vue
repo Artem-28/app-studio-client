@@ -8,7 +8,7 @@
 
 <script setup>
   import { computed, provide } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
+  import { hClasses } from '@/helpers/index.js';
 
   const props = defineProps({
     modelValue: {

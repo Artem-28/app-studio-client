@@ -9,7 +9,7 @@
 
 <script setup>
   import { computed } from 'vue';
-  import { hClasses } from '../../helpers/index.js';
+  import { hClasses } from '@/helpers/index.js';
 
   const props = defineProps({
     color: {
